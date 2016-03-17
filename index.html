@@ -1,1 +1,134 @@
-Hello World
+
+	<style type="text/css">
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  -ms-flex-direction: column;
+  -ms-flex-pack: center;
+}
+
+.window {
+  background-size: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  height: 50%;
+  max-height: 900px;
+  max-width: 1600px;
+  min-height: 450px;
+  min-width: 800px;
+  overflow: hidden;
+  position: relative;
+  width: 70%;
+}
+
+.container {
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  height: 180px;
+  position: relative;
+  top: -40px;
+  align-items: center;
+  /* display: flex; */
+  /* display: -ms-flexbox; */
+  -ms-flex-align: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  padding: 20px 30px;
+  width: 420px;
+}
+
+h2 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 19px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 5px 0;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  zoom: 1;
+  margin: 5px;
+  padding: 6px 16px;
+  line-height: 16px;
+  white-space: nowrap;
+  vertical-align: top;
+  text-decoration: none;
+  position: relative;
+  width: auto;
+  overflow: visible;
+  border-width: 1px;
+  border-style: solid;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  color: #494949;
+  text-shadow: none;
+  background-color: #FBFBFB;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  font-weight: bold;
+  -webkit-transition: border-color linear .15s, box-shadow linear .15s, background-color linear .15s;
+  transition: border-color linear .15s, box-shadow linear .15s, background-color linear .15s;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+
+	</style>
+
+<div class="slide">
+  <div class="window">
+
+  </div>
+  <div class="container">
+    <div class="card">
+      <h2 class="card-title">Put your files on Box.Put your files on Box.Put your files on Box.</h2>
+      <p> Drag &amp; drop files or folders from your computer into Box to upload them. Yellow folders are private, so only you can see them. Drag &amp; drop files or folders from your computer into Box to upload them. Yellow folders are private, so only you
+        can see them. Drag &amp; drop files or folders from your computer into Box to upload them. Yellow folders are private, so only you can see them. </p>
+      <div class="navigation-buttons">
+        <button class="btn" data-action="tour-previous"> Back</button>
+        <button class="btn btn-primary" data-action="tour-next"> Next</button>
+      </div>
+    </div>
+  </div>
+</div>
+
